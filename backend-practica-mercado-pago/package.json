@@ -1,0 +1,25 @@
+{
+  "name": "backend-practica-mercado-pago",
+  "module": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "nodemon": "3.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "mercadopago": "^2.0.8",
+    "morgan": "1.10.0",
+    "pg": "8.11.5",
+    "pg-hstore": "2.3.4",
+    "sequelize": "6.37.2"
+  }
+}
